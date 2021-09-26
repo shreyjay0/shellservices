@@ -1,10 +1,11 @@
-# shellservices
+#Shellservices
 
 Shellservices/Visual-cane: We provide a few services to use in a shell
 
 <div align="center"> 
-![image](https://user-images.githubusercontent.com/42074753/134796340-5bcceb94-25c5-429b-9307-cc148e5c5e73.png)
+<img src="https://user-images.githubusercontent.com/42074753/134796340-5bcceb94-25c5-429b-9307-cc148e5c5e73.png">
 </div>
+
 #
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
