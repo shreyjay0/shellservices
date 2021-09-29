@@ -1,5 +1,5 @@
-import React from 'react';
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Box } from '@chakra-ui/react';
+import React from "react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Box } from "@chakra-ui/react";
 const CustomTabs = () => {
   const [tabIndex, setTabIndex] = React.useState(0);
 
@@ -14,11 +14,12 @@ const CustomTabs = () => {
   return (
     <Box>
       <input
-        type='range'
-        min='0'
-        max='2'
+        type="range"
+        min="0"
+        max="2"
         value={tabIndex}
         onChange={handleSliderChange}
+        className="dashboard tabs"
       />
 
       <Tabs index={tabIndex} onChange={handleTabsChange}>
